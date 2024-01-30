@@ -2,6 +2,9 @@
   <div class="navbar">
     <button class="navbar__btn" @click="$router.push('/')">Главная</button>
     <button class="navbar__btn" @click="$router.push('/posts')">Посты</button>
+    <button class="navbar__btn" @click="$router.push('/composition')">
+      CompostionApi
+    </button>
   </div>
 </template>
 <script lang="ts">
