@@ -2,6 +2,7 @@ import Post from "@/pages/Post.vue";
 import Main from "../pages/Main.vue";
 import PostsListPage from "../pages/PostsListPage.vue";
 import { createRouter, createWebHistory } from "vue-router";
+import PostListCompositionApi from "@/pages/PostListCompositionApi.vue";
 const routes = [
   {
     path: "/",
@@ -14,6 +15,10 @@ const routes = [
   {
     path: "/posts",
     component: PostsListPage,
+  },
+  {
+    path: "/composition",
+    component: PostListCompositionApi,
   },
 ];
 
